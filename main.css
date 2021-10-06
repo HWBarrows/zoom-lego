@@ -1,0 +1,157 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #282b28;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+
+ .header h1 {
+     font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid-container {
+    margin-top: 160px;
+    margin-bottom: 175px;
+    margin-left: 7.5vw;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    justify-content: center;
+    gap: 1em;
+    background-color: #282b28;   
+}
+
+.zoom {
+    height: 30vh;
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    color: rgb(11, 201, 11);
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.grid-container p {
+    font-size: 1.5rem;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.413);
+    padding: 5px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container i {
+    font-size: 2.5rem;
+    height: 65px;
+    position: relative;
+    margin-right: 5%;
+}
+
+.lego1 {
+    background-image: url(./assets/student-1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego2 {
+    background-image: url(./assets/student-2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego3 {
+    background-image: url(./assets/student-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego4 {
+    background-image: url(./assets/student-4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego5 {
+    background-image: url(./assets/student-5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego6 {
+    background-image: url(./assets/student-6.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego7 {
+    background-image: url(./assets/student-7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego8 {
+    background-image: url(./assets/student-8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lego9 {
+    background-image: url(./assets/student-9.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    
+}
+
+.icons {
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icons p {
+    font-size: 1.2rem;
+}
+
+.leave {
+    width: 110px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
